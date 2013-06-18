@@ -9,7 +9,7 @@ body {
 header.site-header {
   width: 100%;
   height: 200px;
-  background-color: spin(#663333, 180); }
+  background-color: #336666; }
   header.site-header .inner {
     *zoom: 1;
     max-width: 68em;
@@ -70,7 +70,7 @@ main {
 footer.site-footer {
   width: 100%;
   height: 200px;
-  background-color: spin(#663333, 180); }
+  background-color: #336666; }
   footer.site-footer .inner {
     *zoom: 1;
     max-width: 68em;
