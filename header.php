@@ -28,9 +28,6 @@
 			</div>
 
 			<nav id="site-navigation" class="navigation-main" role="navigation">
-				<h1 class="menu-toggle"><?php _e( 'Menu', 'bharr_is' ); ?></h1>
-				<div class="screen-reader-text skip-link"><a href="#content" title="<?php esc_attr_e( 'Skip to content', 'bharr_is' ); ?>"><?php _e( 'Skip to content', 'bharr_is' ); ?></a></div>
-
 				<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 			</nav><!-- #site-navigation -->
 		</div>

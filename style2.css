@@ -10,29 +10,35 @@ header.site-header {
   width: 100%;
   height: 200px;
   background-color: #336666; }
-  header.site-header .inner {
-    *zoom: 1;
-    max-width: 68em;
-    margin-left: auto;
-    margin-right: auto; }
-    header.site-header .inner:before, header.site-header .inner:after {
-      content: " ";
-      display: table; }
-    header.site-header .inner:after {
-      clear: both; }
-    header.site-header .inner nav {
-      display: block;
-      float: left;
-      margin-right: 2.35765%;
-      width: 100%; }
-      header.site-header .inner nav:last-child {
-        margin-right: 0; }
-      header.site-header .inner nav ul {
-        list-style: none; }
-        header.site-header .inner nav ul li {
-          float: left; }
-        header.site-header .inner nav ul ul {
-          display: none; }
+  header.site-header nav {
+    display: block;
+    float: left;
+    margin-right: 2.35765%;
+    width: 100%;
+    padding: 0 20px; }
+    header.site-header nav:last-child {
+      margin-right: 0; }
+    header.site-header nav ul {
+      float: left; }
+      header.site-header nav ul li {
+        float: left;
+        padding: 0 9px; }
+      header.site-header nav ul ul {
+        display: none; }
+
+nav ul {
+  list-style: none; }
+
+.inner {
+  *zoom: 1;
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  .inner:before, .inner:after {
+    content: " ";
+    display: table; }
+  .inner:after {
+    clear: both; }
 
 main {
   *zoom: 1;
@@ -71,13 +77,3 @@ footer.site-footer {
   width: 100%;
   height: 200px;
   background-color: #336666; }
-  footer.site-footer .inner {
-    *zoom: 1;
-    max-width: 68em;
-    margin-left: auto;
-    margin-right: auto; }
-    footer.site-footer .inner:before, footer.site-footer .inner:after {
-      content: " ";
-      display: table; }
-    footer.site-footer .inner:after {
-      clear: both; }
