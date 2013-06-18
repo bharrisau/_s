@@ -27,8 +27,12 @@ header.site-header {
       width: 100%; }
       header.site-header .inner nav:last-child {
         margin-right: 0; }
-      header.site-header .inner nav ul ul {
-        display: none; }
+      header.site-header .inner nav ul {
+        list-style: none; }
+        header.site-header .inner nav ul li {
+          float: left; }
+        header.site-header .inner nav ul ul {
+          display: none; }
 
 main {
   *zoom: 1;
