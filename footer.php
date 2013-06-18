@@ -9,7 +9,7 @@
 ?>
   </main><!-- #main -->
   <footer id="colophon" class="site-footer" role="contentinfo">
-  	<div class="site-info">
+  	<div class="inner site-info">
   		<?php do_action( 'bharr_is_credits' ); ?>
   		<a href="http://wordpress.org/" title="<?php esc_attr_e( 'A Semantic Personal Publishing Platform', 'bharr_is' ); ?>" rel="generator"><?php printf( __( 'Proudly powered by %s', 'bharr_is' ), 'WordPress' ); ?></a>
   		<span class="sep"> | </span>
