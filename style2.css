@@ -3,32 +3,57 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+@font-face {
+  font-family: UbuntuTitling;
+  font-weight: normal;
+  font-style: normal;
+  src: url("fonts/UbuntuTitling-Bold-webfont.eot");
+  src: url("fonts/UbuntuTitling-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/UbuntuTitling-Bold-webfont.woff") format("woff"), url("fonts/UbuntuTitling-Bold-webfont.ttf") format("truetype"), url("fonts/UbuntuTitling-Bold-webfont.svg#UbuntuTitling") format("svg"); }
+
+@font-face {
+  font-family: OpenSansRegular;
+  font-weight: normal;
+  font-style: normal;
+  src: url("fonts/OpenSans-Regular-webfont.eot");
+  src: url("fonts/OpenSans-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/OpenSans-Regular-webfont.woff") format("woff"), url("fonts/OpenSans-Regular-webfont.ttf") format("truetype"), url("fonts/OpenSans-Regular-webfont.svg#OpenSansRegular") format("svg"); }
+
 body {
-  font-family: "Open Sans";
+  font-family: OpenSansRegular;
   font-size: 18px;
-  color: #001d27; }
+  color: #00261d;
+  background-color: #e5ebea; }
 
 a {
-  color: #016586;
+  color: #008365;
   text-decoration: none; }
+
+h1, h2, h3 {
+  font-family: UbuntuTitling; }
 
 header.site-header {
   width: 100%;
   height: 199.62306px;
-  background-color: #02779e;
+  background-color: #009b77;
+  font-family: UbuntuTitling;
   color: #fff; }
   header.site-header a {
     color: #fff; }
+  header.site-header h1 {
+    font-size: 9em;
+    margin: 18px 0 0 0; }
   header.site-header nav {
     left: 0px;
     padding: 0 20px;
     position: relative; }
     header.site-header nav ul {
       float: left;
-      padding: 0; }
+      padding: 0;
+      margin-top: -17px; }
       header.site-header nav ul li {
+        z-index: 10;
         float: left;
-        padding: 0 11.12461px; }
+        padding: 0 11.12461px;
+        font-size: 2em; }
       header.site-header nav ul ul {
         display: none; }
 
@@ -37,9 +62,9 @@ nav ul {
 
 .inner {
   *zoom: 1;
+  max-width: 60.44444em;
   margin-left: auto;
-  margin-right: auto;
-  width: 1075.64125px; }
+  margin-right: auto; }
   .inner:before, .inner:after {
     content: " ";
     display: table; }
@@ -48,14 +73,47 @@ nav ul {
 
 main {
   *zoom: 1;
+  max-width: 60.44444em;
   margin-left: auto;
   margin-right: auto;
-  width: 1075.64125px; }
+  margin-top: -47.12461px;
+  border-top: 47.12461px solid #4cb99f;
+  background-color: #ebf0ef;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  border-radius: 10px; }
   main:before, main:after {
     content: " ";
     display: table; }
   main:after {
     clear: both; }
+  main .index {
+    display: block;
+    float: left;
+    margin-right: 2.35765%;
+    width: 100%; }
+    main .index:last-child {
+      margin-right: 0; }
+    main .index article {
+      border-radius: 10px;
+      margin: 18px;
+      padding: 1px 18px 18px 18px;
+      background-color: #d8e2df;
+      background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d8e2df), color-stop(100%, #ebf0ef));
+      background-image: -webkit-linear-gradient(#d8e2df, #ebf0ef);
+      background-image: linear-gradient(#d8e2df, #ebf0ef); }
+    main .index nav {
+      margin: 18px;
+      padding: 1px 18px 18px 18px; }
+  main .single {
+    display: block;
+    float: left;
+    margin-right: 2.35765%;
+    width: 100%;
+    padding: 18px; }
+    main .single:last-child {
+      margin-right: 0; }
+    main .single article {
+      border-radius: 10px; }
   main .footer {
     display: block;
     float: left;
@@ -66,5 +124,5 @@ main {
 
 footer.site-footer {
   width: 100%;
-  height: 47.12461px;
-  background-color: #02779e; }
+  height: 59.94343px;
+  padding-top: 22.89635px; }

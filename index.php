@@ -12,7 +12,7 @@
  */
 
 get_header(); ?>
-	<div class="main">
+	<div class="index">
 	<?php if ( have_posts() ) : ?>
 
 		<?php /* Start the Loop */ ?>
